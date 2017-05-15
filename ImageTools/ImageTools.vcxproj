@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{AC862C3A-F3B5-436C-A633-80CEF0F2FE35}</ProjectGuid>
+    <RootNamespace>ImageTools</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>D:\Program Files %28x86%29\Visual Leak Detector\include;./GLEW/include;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\Program Files %28x86%29\Visual Leak Detector\lib\win32;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>./GLEW/include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <OpenMPSupport>true</OpenMPSupport>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="AdaptiveWeight.h" />
+    <ClInclude Include="Algorithm.h" />
+    <ClInclude Include="block.h" />
+    <ClInclude Include="BPStereo.h" />
+    <ClInclude Include="ColorConversion.h" />
+    <ClInclude Include="CoreStruct.h" />
+    <ClInclude Include="CSVFile.h" />
+    <ClInclude Include="Delaunay\Delaunay3D.h" />
+    <ClInclude Include="Elas.h" />
+    <ClInclude Include="energy.h" />
+    <ClInclude Include="Filter.h" />
+    <ClInclude Include="Fouier.h" />
+    <ClInclude Include="FreeImage.h" />
+    <ClInclude Include="graph.h" />
+    <ClInclude Include="Harris.h" />
+    <ClInclude Include="Image.h" />
+    <ClInclude Include="ImageExpandTools.h" />
+    <ClInclude Include="ImageProcess.h" />
+    <ClInclude Include="ImageSegment.h" />
+    <ClInclude Include="ImageTools.h" />
+    <ClInclude Include="LFrame.h" />
+    <ClInclude Include="Log.h" />
+    <ClInclude Include="math\accum.h" />
+    <ClInclude Include="math\algo.h" />
+    <ClInclude Include="math\bezier_curve.h" />
+    <ClInclude Include="math\bspline.h" />
+    <ClInclude Include="math\defines.h" />
+    <ClInclude Include="math\geometry.h" />
+    <ClInclude Include="math\jacobi_solver.h" />
+    <ClInclude Include="math\line.h" />
+    <ClInclude Include="math\matrix.h" />
+    <ClInclude Include="math\matrix_tools.h" />
+    <ClInclude Include="math\octree_tools.h" />
+    <ClInclude Include="math\permute.h" />
+    <ClInclude Include="math\plane.h" />
+    <ClInclude Include="math\quaternion.h" />
+    <ClInclude Include="math\vector.h" />
+    <ClInclude Include="Matrix.h" />
+    <ClInclude Include="meshIO.h" />
+    <ClInclude Include="MrfStereo.h" />
+    <ClInclude Include="MRF\block.h" />
+    <ClInclude Include="MRF\BP-S.h" />
+    <ClInclude Include="MRF\energy.h" />
+    <ClInclude Include="MRF\GCoptimization.h" />
+    <ClInclude Include="MRF\GraphCuts.h" />
+    <ClInclude Include="MRF\ICM.h" />
+    <ClInclude Include="MRF\LinkedBlockList.h" />
+    <ClInclude Include="MRF\MaxProdBP.h" />
+    <ClInclude Include="MRF\mrf.h" />
+    <ClInclude Include="MRF\regions-new.h" />
+    <ClInclude Include="MRF\TRW-S.h" />
+    <ClInclude Include="MRF\typeTruncatedQuadratic2D.h" />
+    <ClInclude Include="opengl.h" />
+    <ClInclude Include="PatchMatch.h" />
+    <ClInclude Include="PSO\CostFunction.h" />
+    <ClInclude Include="PSO\MyPSO.h" />
+    <ClInclude Include="PSO\Particle.h" />
+    <ClInclude Include="PSO\PSOStereoMatch.h" />
+    <ClInclude Include="PSO\Swarm.h" />
+    <ClInclude Include="PtrMat.h" />
+    <ClInclude Include="Reconstruction.h" />
+    <ClInclude Include="resource1.h" />
+    <ClInclude Include="sharpen.h" />
+    <ClInclude Include="Sift.h" />
+    <ClInclude Include="SLIC.h" />
+    <ClInclude Include="StereoMatch.h" />
+    <ClInclude Include="tetgen.h" />
+    <ClInclude Include="tools.h" />
+    <ClInclude Include="triangle.h" />
+    <ClInclude Include="universe.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AdaptiveWeight.cpp" />
+    <ClCompile Include="ANCC.cpp" />
+    <ClCompile Include="BPStereo.cpp" />
+    <ClCompile Include="bvz.cpp" />
+    <ClCompile Include="ColorConversion.cpp" />
+    <ClCompile Include="corr.cpp" />
+    <ClCompile Include="CostCalculate.cpp" />
+    <ClCompile Include="CSVFile.cpp" />
+    <ClCompile Include="Delaunay\Delaunay3D.cpp" />
+    <ClCompile Include="Elas.cpp" />
+    <ClCompile Include="Filter.cpp" />
+    <ClCompile Include="Fouier.cpp" />
+    <ClCompile Include="graph.cpp" />
+    <ClCompile Include="Harris.cpp" />
+    <ClCompile Include="ImageExpandTools.cpp" />
+    <ClCompile Include="ImageProcess.cpp" />
+    <ClCompile Include="ImageSegment.cpp" />
+    <ClCompile Include="ImageTest.cpp" />
+    <ClCompile Include="ImageTools.cpp" />
+    <ClCompile Include="kz1.cpp" />
+    <ClCompile Include="kz2.cpp" />
+    <ClCompile Include="LFrame.cpp" />
+    <ClCompile Include="Log.cpp" />
+    <ClCompile Include="mincuts.cpp" />
+    <ClCompile Include="MrfStereo.cpp" />
+    <ClCompile Include="MRF\BP-S.cpp" />
+    <ClCompile Include="MRF\GCoptimization.cpp" />
+    <ClCompile Include="MRF\GraphCuts.cpp" />
+    <ClCompile Include="MRF\ICM.cpp" />
+    <ClCompile Include="MRF\LinkedBlockList.cpp" />
+    <ClCompile Include="MRF\maxflow.cpp" />
+    <ClCompile Include="MRF\MaxProdBP.cpp" />
+    <ClCompile Include="MRF\mrf.cpp" />
+    <ClCompile Include="MRF\regions-maxprod.cpp" />
+    <ClCompile Include="MRF\TRW-S.cpp" />
+    <ClCompile Include="opengl.cpp" />
+    <ClCompile Include="PatchMatch.cpp" />
+    <ClCompile Include="predicates.cxx" />
+    <ClCompile Include="PSO\MinParticle.cpp" />
+    <ClCompile Include="PSO\MinSwarm.cpp" />
+    <ClCompile Include="PSO\Particle.cpp" />
+    <ClCompile Include="PSO\PSOStereoMatch.cpp" />
+    <ClCompile Include="PSO\Swarm.cpp" />
+    <ClCompile Include="Reconstruction.cpp" />
+    <ClCompile Include="sharpen.cpp" />
+    <ClCompile Include="Sift.cpp" />
+    <ClCompile Include="SLIC.cpp" />
+    <ClCompile Include="StereoMatch.cpp" />
+    <ClCompile Include="tetgen.cxx" />
+    <ClCompile Include="tools.cpp" />
+    <ClCompile Include="triangle.cpp" />
+    <ClCompile Include="universe.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ImageTools1.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

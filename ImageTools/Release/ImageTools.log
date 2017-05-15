@@ -1,0 +1,95 @@
+﻿生成启动时间为 2014/4/17 9:59:31。
+     1>项目“E:\百度云\计算机视觉代码\ImageTools\ImageTools\ImageTools.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ID:\eigen3.2 /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /openmp /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ANCC.cpp AdaptiveWeight.cpp BPStereo.cpp ColorConversion.cpp CostCalculate.cpp Delaunay\Delaunay3D.cpp Elas.cpp Filter.cpp Fouier.cpp Harris.cpp ImageExpandTools.cpp ImageProcess.cpp ImageSegment.cpp ImageTest.cpp Log.cpp MrfStereo.cpp PSO\MinParticle.cpp PSO\PSOStereoMatch.cpp Reconstruction.cpp SLIC.cpp Sift.cpp StereoMatch.cpp bvz.cpp corr.cpp kz1.cpp kz2.cpp sharpen.cpp
+         ANCC.cpp
+         AdaptiveWeight.cpp
+         BPStereo.cpp
+         ColorConversion.cpp
+         CostCalculate.cpp
+         Delaunay3D.cpp
+         Elas.cpp
+     1>Elas.cpp(1115): warning C4305: “参数”: 从“int”到“float”截断
+         Filter.cpp
+         Fouier.cpp
+         Harris.cpp
+         ImageExpandTools.cpp
+         ImageProcess.cpp
+         ImageSegment.cpp
+         ImageTest.cpp
+         Log.cpp
+         MrfStereo.cpp
+     1>MrfStereo.cpp(241): warning C4244: “参数”: 从“int”转换到“SmoothnessCost::CostVal”，可能丢失数据
+     1>MrfStereo.cpp(244): warning C4244: “参数”: 从“int”转换到“SmoothnessCost::CostVal”，可能丢失数据
+         MinParticle.cpp
+         PSOStereoMatch.cpp
+         Reconstruction.cpp
+         SLIC.cpp
+         正在编译...
+         Sift.cpp
+         StereoMatch.cpp
+         bvz.cpp
+         corr.cpp
+         kz1.cpp
+         kz2.cpp
+         sharpen.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\百度云\计算机视觉代码\ImageTools\Release\ImageTools.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\百度云\计算机视觉代码\ImageTools\Release\ImageTools.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\百度云\计算机视觉代码\ImageTools\Release\ImageTools.lib" /MACHINE:X86 /SAFESEH Release\ImageTools1.res
+         Release\AdaptiveWeight.obj
+         Release\ANCC.obj
+         Release\BPStereo.obj
+         Release\bvz.obj
+         Release\ColorConversion.obj
+         Release\corr.obj
+         Release\CostCalculate.obj
+         Release\Delaunay3D.obj
+         Release\Elas.obj
+         Release\Filter.obj
+         Release\Fouier.obj
+         Release\graph.obj
+         Release\Harris.obj
+         Release\ImageExpandTools.obj
+         Release\ImageProcess.obj
+         Release\ImageSegment.obj
+         Release\ImageTest.obj
+         Release\ImageTools.obj
+         Release\kz1.obj
+         Release\kz2.obj
+         Release\LFrame.obj
+         Release\Log.obj
+         Release\mincuts.obj
+         Release\MrfStereo.obj
+         "Release\BP-S.obj"
+         Release\GCoptimization.obj
+         Release\GraphCuts.obj
+         Release\ICM.obj
+         Release\LinkedBlockList.obj
+         Release\maxflow.obj
+         Release\MaxProdBP.obj
+         Release\mrf.obj
+         "Release\regions-maxprod.obj"
+         "Release\TRW-S.obj"
+         Release\opengl.obj
+         Release\predicates.obj
+         Release\MinParticle.obj
+         Release\MinSwarm.obj
+         Release\Particle.obj
+         Release\PSOStereoMatch.obj
+         Release\Swarm.obj
+         Release\Reconstruction.obj
+         Release\sharpen.obj
+         Release\Sift.obj
+         Release\SLIC.obj
+         Release\StereoMatch.obj
+         Release\tetgen.obj
+         Release\tools.obj
+         Release\triangle.obj
+         Release\universe.obj
+         正在生成代码
+         已完成代码的生成
+         ImageTools.vcxproj -> E:\百度云\计算机视觉代码\ImageTools\Release\ImageTools.exe
+     1>已完成生成项目“E:\百度云\计算机视觉代码\ImageTools\ImageTools\ImageTools.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:26.97

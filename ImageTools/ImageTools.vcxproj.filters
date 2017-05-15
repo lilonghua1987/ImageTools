@@ -1,0 +1,425 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="MRF">
+      <UniqueIdentifier>{3e4df570-47a2-4623-a10c-ab244b0df07c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MRF\头文件">
+      <UniqueIdentifier>{73f05d8c-2451-4aa7-9329-60a9af0095e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MRF\源文件">
+      <UniqueIdentifier>{8fb26229-48f1-45b0-bafb-5566e160dfda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PSO">
+      <UniqueIdentifier>{72a64ef7-e04d-493f-970c-25332720eeff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PSO\头文件">
+      <UniqueIdentifier>{089b651e-2ff1-4ef3-93c9-d49c695a3b6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PSO\源文件">
+      <UniqueIdentifier>{ffe51dad-6d21-48f4-a1cb-d247c0a9e717}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Delaunay">
+      <UniqueIdentifier>{233400b3-6bd7-43fa-b450-c7c3f20ea369}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Delaunay\头文件">
+      <UniqueIdentifier>{e1b79f09-defb-49c6-86c2-14d6390607da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Delaunay\源文件">
+      <UniqueIdentifier>{92f9e4b4-eab4-47f2-8ed9-6681aa38f9d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="math">
+      <UniqueIdentifier>{1de4f710-9ddc-45ae-bccb-1407c3daeb62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="math\头文件">
+      <UniqueIdentifier>{efb1d8df-f3f0-420a-9ca8-d8daf5bd4cd9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FreeImage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageProcess.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Fouier.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Harris.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sharpen.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="resource1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AdaptiveWeight.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Log.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Sift.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tools.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorConversion.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageSegment.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="universe.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BPStereo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SLIC.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Reconstruction.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LFrame.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="StereoMatch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Image.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageTools.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageExpandTools.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PtrMat.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="energy.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="graph.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="block.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreStruct.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MRF\block.h">
+      <Filter>MRF\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MRF\BP-S.h">
+      <Filter>MRF\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MRF\energy.h">
+      <Filter>MRF\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MRF\GCoptimization.h">
+      <Filter>MRF\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MRF\ICM.h">
+      <Filter>MRF\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MRF\LinkedBlockList.h">
+      <Filter>MRF\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MRF\MaxProdBP.h">
+      <Filter>MRF\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MRF\mrf.h">
+      <Filter>MRF\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MRF\regions-new.h">
+      <Filter>MRF\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MRF\TRW-S.h">
+      <Filter>MRF\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MRF\typeTruncatedQuadratic2D.h">
+      <Filter>MRF\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MRF\GraphCuts.h">
+      <Filter>MRF\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MrfStereo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PSO\MyPSO.h">
+      <Filter>PSO\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PSO\PSOStereoMatch.h">
+      <Filter>PSO\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PSO\Swarm.h">
+      <Filter>PSO\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PSO\Particle.h">
+      <Filter>PSO\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PSO\CostFunction.h">
+      <Filter>PSO\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Elas.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Filter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="triangle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Delaunay\Delaunay3D.h">
+      <Filter>Delaunay\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tetgen.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="math\accum.h">
+      <Filter>math\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="math\algo.h">
+      <Filter>math\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="math\bezier_curve.h">
+      <Filter>math\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="math\bspline.h">
+      <Filter>math\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="math\defines.h">
+      <Filter>math\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="math\geometry.h">
+      <Filter>math\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="math\jacobi_solver.h">
+      <Filter>math\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="math\line.h">
+      <Filter>math\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="math\matrix.h">
+      <Filter>math\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="math\matrix_tools.h">
+      <Filter>math\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="math\octree_tools.h">
+      <Filter>math\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="math\permute.h">
+      <Filter>math\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="math\plane.h">
+      <Filter>math\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="math\quaternion.h">
+      <Filter>math\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="math\vector.h">
+      <Filter>math\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="meshIO.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Algorithm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PatchMatch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CSVFile.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ImageProcess.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageTest.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Fouier.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Harris.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sharpen.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AdaptiveWeight.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Log.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Sift.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tools.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorConversion.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageSegment.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="universe.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BPStereo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SLIC.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Reconstruction.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LFrame.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="StereoMatch.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageTools.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageExpandTools.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="kz1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CostCalculate.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="graph.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ANCC.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MRF\BP-S.cpp">
+      <Filter>MRF\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MRF\GCoptimization.cpp">
+      <Filter>MRF\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MRF\ICM.cpp">
+      <Filter>MRF\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MRF\LinkedBlockList.cpp">
+      <Filter>MRF\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MRF\maxflow.cpp">
+      <Filter>MRF\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MRF\MaxProdBP.cpp">
+      <Filter>MRF\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MRF\mrf.cpp">
+      <Filter>MRF\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MRF\regions-maxprod.cpp">
+      <Filter>MRF\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MRF\TRW-S.cpp">
+      <Filter>MRF\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MRF\GraphCuts.cpp">
+      <Filter>MRF\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mincuts.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MrfStereo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="kz2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bvz.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="corr.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PSO\Particle.cpp">
+      <Filter>PSO\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PSO\MinParticle.cpp">
+      <Filter>PSO\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PSO\PSOStereoMatch.cpp">
+      <Filter>PSO\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PSO\Swarm.cpp">
+      <Filter>PSO\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PSO\MinSwarm.cpp">
+      <Filter>PSO\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Elas.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Filter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="triangle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Delaunay\Delaunay3D.cpp">
+      <Filter>Delaunay\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="predicates.cxx">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tetgen.cxx">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="opengl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PatchMatch.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CSVFile.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ImageTools1.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
